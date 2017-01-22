@@ -1,9 +1,9 @@
 {
   "name": "cloudlink-front-framework",
   "version": "0.1.0",
-  "description": "Angular 2 and Bootstrap 4 Admin Template.",
-  "author": "akveo",
-  "homepage": "http://akveo.github.io/ng2-admin/",
+  "description": "中盈安信 PaaS平台 angular2 ng2",
+  "author": "An Mingchao",
+  "homepage": "https://github.com/amclap",
   "license": "MIT",
   "dependencies": {
     "@angular/common": "2.2.3",
