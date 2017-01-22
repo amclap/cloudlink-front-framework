@@ -9,6 +9,7 @@ import { PersonalRoutes } from './personal-center.routing';
 import { BasicInfoComponent } from './basic-info/basic-info.component';
 import { PasswordComponent } from './password/password.component';
 import { ButtonModule, CalendarModule, TabViewModule, ToolbarModule, DialogModule } from 'primeng/primeng';
+import { AgGridModule } from 'ag-grid-ng2/main';
 @NgModule({
     imports: [
         CommonModule,
@@ -23,7 +24,8 @@ import { ButtonModule, CalendarModule, TabViewModule, ToolbarModule, DialogModul
         ToolbarModule,
         Ng2BootstrapModule,
         Ng2SmartTableModule,
-        DialogModule
+        DialogModule,
+        AgGridModule.withComponents([BasicInfoComponent])
     ],
     declarations: [
         BasicInfoComponent,

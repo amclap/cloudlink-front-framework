@@ -9,6 +9,21 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 })
 
 export class BasicInfoComponent implements OnInit {
+	columnDefs = [
+		{
+			headerName: "Square Component",
+			field: "value",
+			editable: true,
+			colId: "square",
+			width: 175
+		}, {
+			headerName: "Square Component",
+			field: "value",
+			editable: true,
+			colId: "square",
+			width: 175
+		}
+	];
 	display: boolean = false;
 	showDialog() {
 		this.display = true;

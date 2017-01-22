@@ -26,9 +26,15 @@ import 'bootstrap-loader';
 import 'font-awesome-sass-loader';
 import 'lodash';
 import 'primeng/primeng';
-import 'primeng/resources/themes/omega/theme.css';
-// import 'font-awesome/css/font-awesome.min.css';
-import 'primeng/resources/primeng.min.css';
+//加载ag-grid所需的css文件
+// import 'ag-grid/dist/styles/ag-grid.css';
+// import 'ag-grid/dist/styles/theme-blue.css';
+// import 'ag-grid/dist/styles/theme-dark.css';
+// import 'ag-grid/dist/styles/theme-fresh.css';
+// import 'ag-grid/dist/styles/theme-material.css';
+//ag-grid 最主要的文件
+import 'ag-grid-ng2/main';
+//import 'ag-grid-enterprise/main';//这个是ag-grid企业版license
 if ('production' === ENV) {
   // Production
 } else {
