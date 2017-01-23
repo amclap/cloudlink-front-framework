@@ -14,5 +14,4 @@ const routes: Routes = [
 
     }
 ];
-
-export const PersonalRoutes = RouterModule.forChild(routes);
+export const MonitorRoutes = RouterModule.forChild(routes);
